@@ -5,46 +5,72 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./assets/css/main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
     <title>Document</title>
 </head>
 
 <body>
     
-    <section class="main-container">
-        <h1 id="title">Hugo Charles, <br>looking for an apprenticeship</h1>
-        <div id="picture-container">
-            <img src="assets/img/pic-profil.jpg" alt="user-picture" width="250px" id="profil-picture">
+                                <!-- HEADER -->
+<section class="main-container">
+    <div class="title-container">   
+        <h1 id="title">Hugo Charles,</h1> 
+        <h1 class="flex" id="subtitle">Web developer apprentice</h1>
+    </div> 
+
+                                    <!-- MENU -->
+
+        <section id="menu">
+            <div class="menu-container">
+                <a href="#xp-pro" class="menu-items" title="Direct access to my professionnal skills">Professionnal skills</a> 
+
+                <a href="#formations" class="menu-items" title="Direct access to my formations">Formations</a>
+        
+                <a href="portfolio.html" class="menu-items">Discover my creations</a> 
+            </div>
+        </section>
+</section>
+
+
+                        <!-- CONTACT SECTION -->
+                        
+    <section class="contact-container flex">
+
+        <div class="icon-container">
+            <a href="https://facebook.com/" id="facebook-logo" target="_blank"
+            aria-label="Become a Facebook fan">
+                <i class="fa-brands fa-facebook"></i>
+            </a>
+
+            <a href="#" target="_blank" id="linkedin-logo" aria-label="Become a LinkedIn Fan">
+                <i class="fa-brands fa-linkedin"></i>
+            </a>
+
+            <a href="#" target="_blank" id="twitter-logo" aria-label="Become a Twitter fan">
+                <i class="fa-brands fa-twitter"></i>
+            </a>
         </div>
 
-        <p>Navigate here</p>
-        <a href="#xp-pro" title="Direct access to my professionnal skills">Professionnal skills</a> 
-        <br>
-        <a href="#formations" title="Direct access to my formations">Formations</a>
-        <br>
-        <a href="portfolio.html">Discover my creations</a> 
-        <br>
         <h2> <a href="./contact/contact.html">Contact me</a></h2>
-        <address id="my-datas">
-            <a href="mailto:hugo.charles.pro997@gmail.com">hugo.charles.pro997@gmail.com</a>
-            <br>
-            <a href="tel:+33760085510">+337.60.08.55.10</a>
-        </address> 
-    </section>
 
-    <section class="professionnal-xp" id="xp-pro">
-        <h2 class="subtitle">My professionnal skills</h2>
+        <!-- <div class="picture-container flex">
+            <img src="assets/img/mainpic-removebg-preview.png" alt="user-picture" id="profil-picture" class="flex">
+        </div> -->
+
+    </section>
+ 
+    <section class="formations" aria-labelledby="list-formations">
         <ul>
             <li>
-                Apprentice at <span><a href="https://www.wf3.fr/" target="_blank">Webforce3</a></span>
+                Apprentice Web developer at <span><a href="https://www.wf3.fr/" target="_blank">Webforce3</a></span>
             </li>
             <li></li>
             <li></li>
             <li></li>
         </ul>
-    </section>
 
-    <section id="formations">
         <h2>My formations</h2>
+
         <div class="list-formations">
             <ul>
                 <li>haha</li>
@@ -53,7 +79,14 @@
                 <li>haha</li>
             </ul>
         </div>
+
     </section>
+
+    <address id="my-datas">
+        <a href="mailto:hugo.charles.pro997@gmail.com">hugo.charles.pro997@gmail.com</a>
+        <br> <br>
+        <a href="tel:+33760085510">+337.60.08.55.10</a>
+    </address> 
 </body>
 
 </html>

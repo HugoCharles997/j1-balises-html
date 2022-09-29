@@ -1,0 +1,63 @@
+@font-face {
+    font-family: "noto";
+    src: url(../fonts/Noto_Sans_Mono/NotoSansMono-VariableFont_wdth\,wght.ttf);
+}
+
+* {
+    font-family: "noto";
+}
+
+section div {
+    width: 200px;
+    height: 200px;
+    border: 2px solid red;
+    margin: 20px;
+    border-radius: 50%;
+    box-shadow: 8px 8px 10px rgba(0, 0, 0, 0.594);
+}
+
+div:first-of-type {
+    background: blue;
+}
+
+div:nth-child(2) {
+    background: violet;
+}
+
+div:last-of-type {
+    background: yellow;
+}
+
+                                                                /* HELPERS */
+
+.flex {
+    display: flex;
+}
+
+.flex-start {
+    justify-content: flex-start;
+}
+
+.flex-end {
+    justify-content: flex-end;
+}
+
+.center {
+    justify-content: center;
+}
+
+.space-between {
+    justify-content: space-between;
+}
+
+.space-around {
+    justify-content: space-around;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.column {
+    flex-direction: column;
+}
